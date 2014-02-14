@@ -1,0 +1,171 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.container {
+	width: 1080px;
+	margin:0 auto;
+}
+
+p {
+	line-height: 24px;
+	margin-bottom: 35px;
+	font-family: 'Duru Sans', "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}   
+
+h1 {
+	font-family: 'Krona One', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-size: 36px;                     
+}
+
+h2 {
+	font-family: 'Krona One', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+h3 {
+	font-family: 'Krona One', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-size: 24px;
+	color: #ffffff;
+}
+
+header {
+	width: 100%;
+	height: 720px;
+	background-size: cover;
+	background-image: url('../images/headerPic.jpg');
+}
+
+nav {
+	width: 100%;
+	height: 141px;
+	background-color: rgba(2,2,2, 0.3);
+	padding: 24px 125px; 
+}
+
+#logo {
+	width: 264px;
+	height: 104px;
+	background-image: url('../images/logo.png');
+	float: left;
+}
+
+ul#topNav {
+	float: right;
+	margin: 42px 30px;
+}
+
+ul#topNav li {
+	display: inline;
+	margin-left: 62px; 
+}
+
+ul#topNav li a {
+	font-family: 'Krona One', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#headerFoodImg {
+	float: left;
+	margin-top: 46px;
+}
+
+header h2 {
+	float: left;
+	text-align: center;
+	color: #ffffff;
+	margin-left: 30px;
+	margin-top: 243px;
+}
+
+/*-------- About Us Section ---------*/
+
+section#aboutUs {
+	padding: 100px;
+}
+
+section#aboutUs h1 {
+	text-align: center;
+	color: #5dcdb5;
+	margin-bottom: 46px; 
+}
+
+section#aboutUs h2 {
+	color: #000;
+	font-size: 14px;
+}
+
+section#aboutUs h3 {
+	color: #000;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+#leftAbout {
+	width: 575px;
+	float: left;
+}
+
+#rightAbout {
+	width: 505px;
+	float: right;
+	margin-bottom: 78px;
+}
+
+/*-------- Menu Section ---------*/
+
+section#menu {
+	float: left;
+	width: 100%;
+	background-size: cover;
+	background-image: url('../images/menuPic.jpg') ;
+	padding: 70px;
+	text-align: center;
+}
+
+section#menu h1 {
+	margin-bottom: 52px;
+	color: #f95971;
+}
+
+section#menu ul h2 {
+	margin-bottom: 18px;
+}
+
+section#menu ul li {
+	margin-bottom: 20px;
+}
+
+section#menu ul {
+	float: left;
+	font-family: 'Duru Sans', "Century Gothic", CenturyGothic, sans-serif;
+	margin-left: 60px;
+	margin-right: 70px;
+}
+
+/*--------- Footer ----------*/
+
+footer {
+	float: left;
+	width: 100%;
+	background-color: #252525;
+	padding: 70px;
+	color: #ffffff;
+}
+
+footer p {
+	margin-bottom: -15px;
+	line-height: 24px;
+}
+
+footer p:last-child {
+	line-height: 50px;
+}
+
+#copyRight {
+	float: right;
+}
